@@ -1,0 +1,7 @@
+Package: cross-classify-gitlab
+Version: 1.1
+Architecture: all
+Essential: no
+Priority: optional
+Maintainer: maintainer@crossclassify.com
+Description: This package add fraud detection to gitlab signup and signin forms
