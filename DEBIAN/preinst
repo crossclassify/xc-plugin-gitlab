@@ -4,10 +4,16 @@ read -p "Enter SiteId: " site_id
 read -p "Enter API Key: " api_key
 
 
+# Create directory if it doesn't exist
+mkdir -p "/etc/cross-classify-gitlab-plugin"
 
-# Save the API key to a file or use it in other configurations
-echo "apiKey=$api_key" >> /etc/cross-classify-gitlab-plugin/config.txt
-echo "secretKey=$secret_key" >> /etc/cross-classify-gitlab-plugin/config.txt
+# Create config file
+cat << EOF > "/etc/cross-classify-gitlab-plugin/config.txt"
+apiKey=$api_key
+siteId=$site_id
+EOF
+
+
 
 
 # ======================== Load plugin =========================
