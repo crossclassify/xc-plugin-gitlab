@@ -1,5 +1,5 @@
-const siteId = "479"
-const apiKey = "UZHL4jF7Ar8vgsG3V8C1u7yaX3vfeMw1GxLh64ib"
+const siteId = ""
+const apiKey = ""
 
 function setContentTracking(element){
     element.setAttribute("custom-attribute" , "include-content-tracking")
@@ -32,7 +32,7 @@ function handleSubmit(event){
     event.preventDefault()
     setTimeout(() => {
         event.target.submit()
-    }, 100);
+    }, 5000);
 }
 
 function initApi(){
