@@ -24,7 +24,7 @@ if not you can install it using
 ```bash
  wget https://github.com/crossclassify/xc-plugin-gitlab/blob/main/cross-classify-gitlab.deb
 
- dpkg -i cross-classify-gitlab-plugin.deb
+ dpkg -i cross-classify-gitlab.deb
 ```
 
 ### other distributions
