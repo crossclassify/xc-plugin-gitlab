@@ -22,7 +22,7 @@ if not you can install it using
 
 ###  Debian/Ubuntu
 ```bash
- wget https://github.com/crossclassify/xc-plugin-gitlab/blob/main/cross-classify-gitlab-plugin.deb
+ wget https://github.com/crossclassify/xc-plugin-gitlab/blob/main/cross-classify-gitlab.deb
 
  dpkg -i cross-classify-gitlab-plugin.deb
 ```
