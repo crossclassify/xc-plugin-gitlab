@@ -22,9 +22,9 @@ if not you can install it using
 
 ###  Debian/Ubuntu
 ```bash
- wget https://ryan-gitlab-plugin.s3.ap-southeast-2.amazonaws.com/cross-classify-gitlab.deb
+ wget https://github.com/crossclassify/xc-plugin-gitlab/blob/main/cross-classify-gitlab-plugin.deb
 
- dpkg -i cross-classify-gitlab.deb
+ dpkg -i cross-classify-gitlab-plugin.deb
 ```
 
 ### other distributions
